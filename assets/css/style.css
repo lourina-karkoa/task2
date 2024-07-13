@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 100px;
+  font-style: normal;
+}
+.navbar{
+    background-color: red;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(97, 95, 95);
+    position: fixed;
+}
+.unorder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.unorder li{
+    height: 30px;
+}
+
+.unorder li .textdecor{
+    height:30px ;
+    text-decoration: none;
+    color: white;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    
+}
+.unorder li .textdecor:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+    
+}
+.navbar div{
+    background-color:white ;
+    height:30px ;
+    color: black;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#home-style{
+    text-decoration: none;
+    color: black;
+    height: 20px ;
+}
+.hero{
+    width: 100%;
+    height: 48.4%;
+    background-color: red;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly ;
+}
+.hero h1{
+    margin-top: 65px;
+    font-size: 50px ;
+    font-weight: lighter;
+   
+}
+.hero h3{
+    font-weight: lighter;
+}
+.hero button{
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    width: 100px;
+    height:30px;
+}
+.father1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.ch1{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.father1 .ch2{
+    top:20px ;
+    margin-left: 40px;
+}
+.style-lorem{
+    color: rgb(92, 91, 91);
+    font-size: 14px;
+}
+.father2{
+    background-color: rgb(230, 226, 226);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.lk-par{
+    width: 300px;
+}
+.father2 .ch2-2{
+    margin-right:40px ;
+}
+
+.father3{
+    width: 100%;
+    height:50% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.father3 .main-div3{
+    width:100% ;
+    height: 40%;
+    background-color: rgb(77, 75, 75);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+
+}
+.father3 .foot{
+    width: 100%;
+    height: 60%;
+    background-color: rgb(241, 239, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.father3 .father3-ch1{
+    background-color: rgb(241, 239, 239);
+     display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+
+}
+
+.father3 .footer1{
+    width: 20px;
+    margin-right: 10px;
+}
+.father3 .footer-end{
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-end{
+    background-color: rgb(241, 239, 239);
+    margin-top: -10px;
+}
+.footer-end a{
+    color: gray;
+    margin-left: 2px;
+    background-color: rgb(241, 239, 239);
+}
+@media(max-width:707px){
+    .father2 .ch2-2 {
+        margin-right: 0px;
+    }
+    .father1 .ch2 {
+        margin-left: 0px;
+    }
+}
+
+
+
